@@ -1,3 +1,15 @@
 media:
   input: media
   output: media
+content:
+  - name: posts
+    label: Posts
+    path: _posts
+    type: collection
+    fields:
+      - { name: title, label: Title, type: string, requried: true }
+      - { name: layout, type: string, hidden: true, default: post }
+      - { name: date, label: Date, type: date }
+      - { name: categories, label: Categories, type: string }
+      - { name: body, label: Body, type: rich-text }
+      
