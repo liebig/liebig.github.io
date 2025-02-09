@@ -32,5 +32,6 @@ content:
         type: string
         pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
       - name: baseurl
-        label: Subpath
+        label: Base URL
         type: string
+        description: Subpath of the site, e.g. /blog
