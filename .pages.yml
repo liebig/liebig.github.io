@@ -11,5 +11,5 @@ content:
       - { name: layout, type: string, hidden: true, default: post }
       - { name: categories, label: Categories, type: string }
       - { name: mathjax, label: MathJax, type: boolean, default: false }
-      - { name: excerpt, label: Excerpt, type: text }
+      - { name: excerpt, label: Excerpt, type: rich-text }
       - { name: body, label: Body, type: rich-text }
