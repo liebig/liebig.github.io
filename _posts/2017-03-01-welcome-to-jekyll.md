@@ -1,9 +1,10 @@
 ---
 title: Welcome to Jekyll
 layout: post
+date: 2025-02-09
 categories:
   - code
-published: false
+published: true
 mathjax: false
 excerpt: You’ll find this post in your _posts directory. Go ahead and edit it
   and re-build the site to see your changes. You can rebuild the site in many
