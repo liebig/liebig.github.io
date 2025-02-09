@@ -1,7 +1,7 @@
 ---
 title: Welcome to Jekyll
 layout: post
-date: 2025-02-09
+date: 2010-02-09
 categories:
   - code
 published: true
