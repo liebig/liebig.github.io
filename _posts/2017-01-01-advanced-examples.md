@@ -1,7 +1,9 @@
 ---
 title: Advanced examples
 layout: post
-categories: media
+categories:
+  - deploy
+published: true
 mathjax: true
 excerpt: >-
   ![Swiss
