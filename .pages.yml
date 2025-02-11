@@ -13,7 +13,7 @@ content:
       - { name: categories, label: Categories, type: string, list: true, required: true }
       - { name: published, label: Published, type: boolean, required: true, default: false }
       - { name: mathjax, label: MathJax, type: boolean, required: true, default: false }
-      - { name: excerpt, label: Excerpt, type: text, required: true }
+      - { name: excerpt, label: Excerpt, type: rich-text, required: true }
       - { name: body, label: Body, type: rich-text, required: true }
     view:
       fields: [ date, title, published, categories, excerpt ]
